@@ -1,0 +1,170 @@
+/*Typography*/
+header {
+    color: white;
+    font-size: 24pt;
+    font-family: Bowlby One SC;
+}
+
+#navigation a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20pt;
+}
+
+#splash {
+    font-family: Tomorrow;
+    font-size: 40pt;
+    height: 500px;
+    color: white;
+}
+
+button {
+    font-family: Tomorrow;
+    color: #ff0000;
+    font-size: 20pt;
+}
+
+.picture_ideas{
+    font-family: Tomorrow;
+    color: #000000;
+    font-size: 20pt;
+}
+
+footer {
+    font-family: Tomorrow;
+    color: black;
+    font-size: 20pt;
+}
+
+#social-media i {
+    color: black;
+    font-size: 30pt;
+    margin-right: 15px;
+}
+
+#catalogText h2{
+    font-family: Tomorrow;
+    color: black;
+    font-size: 50pt;
+    padding: 0%;
+}
+
+/* === Background === */
+body {
+    background-color: black;
+}
+
+header {
+    background-color:black;
+}
+
+#splash {
+    
+    background-image: url('carsplash.jpg');
+    background-size: cover;
+    background-position: 0%;
+}
+
+.picture_ideas{
+    background-color: #ffffff;
+}
+
+footer {
+    background-color: #808080;
+}
+
+button {
+    background-color: black;
+    
+}
+
+.catalog{
+    background-color: white;
+
+}
+
+/* === Box Model === */
+header {
+    height: 150px;
+}
+
+
+#splash {
+    height: 500px;
+}
+
+.picture_ideas{
+    height: 500px;
+    padding: 50px;
+}
+
+button {
+    padding: 25px;
+}
+
+footer {
+    height: 150px;
+}
+
+
+#catalogImages img {
+    width: 100%;
+    height: auto;
+}
+
+#catalogText {
+    padding-top: 50px;
+}
+/* === Layout === */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+#navigation a {
+    margin-left: 50px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 125px;
+    padding-bottom: 35px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: none;
+}
+.picture_ideas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+
+#catalogImages {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-gap: 15px;
+    padding: 50px;
+}
